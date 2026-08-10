@@ -1,12 +1,13 @@
 # NHS A&E 4-Hour Breach Prediction
 
-A machine learning pipeline that predicts whether an NHS Trust will breach the **4-hour A&E waiting time target** in a given month, using historical NHS Accident & Emergency (A&E) attendance and admissions data.
+A machine learning pipeline that predicts whether an NHS Trust will breach the 4-hour A&E waiting time target in a given month, using historical NHS Accident & Emergency (A&E) attendance and admissions data.
+
 
 ## Overview
 
-The NHS operational standard requires that at least 95% of patients attending A&E are admitted, transferred, or discharged within 4 hours. This project builds a binary classifier that flags months where a Trust's **breach rate exceeds 5%**, using attendance volumes, admissions, and engineered time-series features.
+The NHS operational standard is for 95% of patients attending A&E to be admitted, transferred or discharged within 4 hours. The aim of this project is to construct an attendance-volume, admissions, and engineered time-series features-based binary classifier to identify months in which a Trust's breach rate is above 5%.
 
-The notebook covers the full pipeline: data cleaning, feature engineering, class balancing, model comparison, hyperparameter-free baselines, SHAP explainability, and subgroup (fairness) analysis.
+The notebook walks through the entire process from data cleaning through feature engineering to class balancing, model comparison, hyperparameter-free baselines, SHAP explainability, and finally to a subgroup (fairness) analysis.
 
 ## Dataset
 
